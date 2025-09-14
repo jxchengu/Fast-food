@@ -75,3 +75,16 @@ p {
 .nav-links li a:hover {
     color: #26b449;
 }
+
+.skind {
+        text-align: center;
+    font-size: 50px;
+    color: #121211;
+    margin-top: 20px;
+    background: #c70707;
+    width: 600px;
+    height: 80px;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 420px;
+}

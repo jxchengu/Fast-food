@@ -58,3 +58,16 @@ h2 {
 p {
     color: #ddd4d4;
 }
+
+.skibidi {
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+    margin-top: 20px;
+    background: #857373;
+    width: 600px;
+    height: 80px;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 400px;
+}
