@@ -1,0 +1,146 @@
+body {
+    background: #dee1e4;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.nav-links li a:hover {
+    color: #26b449;
+}
+
+.homepage {
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 1200px;
+    height: 500px;
+    margin: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.homepager {
+    background: #f0f4f8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 1350px;
+    height: 650px;
+    margin: 20px;
+    text-align: center;
+    padding: 1.5px;
+    margin-left: 50px;
+
+}
+
+h1 {
+    font-size: 5em;
+    color: #1b1a1a;
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.5em;
+    color: #393636;
+}
+
+.explore {
+    background: #469735;
+    color: white;
+    border-radius: 180px;
+    height: 70px;
+    width: 300px;
+    font-size: 1.5em;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #1b1a1a;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #469735;
+}
+
+
+.fc {
+    color: #000;
+    margin: 20px;
+    font-size: 2em;
+}
+
+.chicken {
+    background: #fff;
+    width: 430px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;    
+}
+
+.buffet {
+    padding-top: 40px;
+}
+
+.chicken:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.sixseven {
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+
+.buffer {
+    margin: 20px;
+    color: #447e29;
+}
+
+button:hover {
+  background-color: #a92c05;
+  color: white;
+}
+
+.skinny {
+    font-size: 3em;
+    color: #dcc8c8;
+}

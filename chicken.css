@@ -1,0 +1,77 @@
+body {
+    background: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.chicken-fried {
+    text-align: center;
+}
+
+.fried-chicken img {
+    border-radius: 10px;
+    width: 210px;
+    height: 210px;
+    margin: 20px;
+    flex-shrink: 0;
+}
+
+
+.fried-chicken {
+    width: 1400px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px;
+    background: #777;
+    display: flex;
+
+}
+
+.table {
+    width: 1000px;
+
+    border-collapse: collapse;
+
+}
+
+th, td {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #f4f4f4;
+    border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+    padding: 8px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.nav-links li a:hover {
+    color: #26b449;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,65 @@
+body {
+    background: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.dessert img {
+    width: 700px;
+    height: 430px;
+    margin-left: 100px;
+}
+
+.dessert {
+    margin: 80px;
+}
+
+p {
+    margin-left: 100px;
+    margin-right: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-left: 100px;
+}
+
+.desserts img {
+    width: 700px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.desserts {
+    margin: 80px;
+}
+
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.nav-links li a:hover {
+    color: #26b449;
+}

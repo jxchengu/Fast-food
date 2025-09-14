@@ -1,0 +1,125 @@
+body {
+    background: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.sandwich-item {
+    background: #b7b0b0;
+    width: 650px;
+    height: 800px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+.sandwich-item img {
+    width: 270px;
+    height: 200px;
+    margin: 22px;
+}
+
+.sandwich-items {
+    background: #d5c7c7;
+    width: 650px;
+    height: 930px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2); 
+}
+
+.sandwich-items img {
+    width: 270px;
+    height: 180px;
+    margin: 22px; 
+}
+
+.sandwichs {
+    background: #b5b1b1;
+    width: 650px;
+    height: 930px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2); 
+}
+
+.sandwichs img {
+    width: 270px;
+    height: 160px;
+    margin: 22px; 
+}
+
+h1 {
+    text-align: center;
+    margin: 5px;
+}
+
+p {
+    margin: 10px;
+}
+
+.sandwich {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pizza-pizza img {
+    width: 270px;
+    height: 190px;
+    margin: 22px;
+}
+
+.pizza-pizza {
+    background: #d4bdbd;
+    width: 340px;
+    height: 700px;
+    margin: 15px;
+    border-radius: 15px;    
+}
+
+.wendy {
+    font-size: 0.9em;
+}
+
+.sando {
+    margin: 10px;
+    margin-left: 500px;
+    margin-right: 700px;
+    text-align: center;
+    font-size: 2.5em;
+    background: #1f1c1c;
+    border-radius: 15px;
+    width: 500px;
+    height: 70px;
+    color: white;
+
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.nav-links li a:hover {
+    color: #26b449;
+}

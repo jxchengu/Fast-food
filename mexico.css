@@ -1,0 +1,60 @@
+body {
+    background: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.mexicain {
+    width: 1400px;
+    height: 450px;
+    margin: 15px;
+    background: #413d3d;
+    border-radius: 15px;
+    display: flex;
+}
+
+.mexicain img {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
+
+.text {
+    margin: 10px;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.nav-links li a:hover {
+    color: #26b449;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: #ddd4d4;
+}
